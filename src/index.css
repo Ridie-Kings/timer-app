@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.timer-display {
+  font-family: "Roboto Mono", monospace;
+  transition: all 0.3s ease;
+  min-width: 280px;
+}
+
+.timer-display span {
+  display: inline-block;
+  width: 1ch;
+  text-align: center;
+}
